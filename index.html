@@ -14,7 +14,7 @@
     rel="stylesheet">
 </head>
 
-<body class="bg-[#000000] mx-auto max-w-[1200px] px-[120px]">
+<body class="bg-[#000000] mx-auto max-w-[1200px] lg:px-[120px] px-[20px] antialiased">
   <header class="w-full py-4">
     <nav class="flex items-center justify-between px-4 text-white">
 
@@ -31,30 +31,26 @@
         <!-- Menu Navigasi -->
         <ul class="flex items-center gap-6">
           <li>
-            <a href="index.html" class="text-base font-medium transition-colors">
+            <a href="index.html" class="hidden md:block text-base font-medium transition-colors">
               Home
             </a>
           </li>
 
           <!-- Dropdown Menu -->
           <li class="relative">
-            <button class="flex items-center gap-1 text-base font-medium transition-colors">
+            <button class="flex items-center gap-1 text-base font-medium transition-colors hidden lg:block">
               Roadmap
-              <!-- Icon Panah Dropdown -->
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-              </svg>
             </button>
           </li>
 
           <li>
-            <a href="#contact" class="text-base font-medium transition-colors">
+            <a href="#contact" class="hidden md:block  text-base font-medium transition-colors">
               Contact
             </a>
           </li>
 
           <li>
-            <a href="#social" class="text-base font-medium transition-colors">
+            <a href="#social" class="hidden md:block text-base font-medium transition-colors">
               Social Media
             </a>
           </li>
@@ -62,24 +58,32 @@
       </div>
 
       <!-- Sisi Kanan: Button Github -->
-      <div>
+      <div class="hidden md:block">
         <a href="https://github.com/igedemahayana" target="_blank" rel="noopener noreferrer"
           class="flex items-center gap-[8px] bg-[#1B1F22] text-white font-medium px-6 py-2.5 rounded-lg transition-all">
           <img src="src/icon/github.svg" alt="">
           <span>My Github</span>
         </a>
       </div>
+
+      <!-- Menu Hamburger -->
+      <div class="md:hidden">
+        <img src="src/icon/menu-hamburger.svg" alt="">
+      </div>
     </nav>
+
   </header>
 
   <main>
     <section>
       <div class="my-[120px]">
         <div class="flex flex-col items-center justify-center gap-[32px]">
-          <h1 class="text-[56px] text-center leading-[56px] tracking-[-1.7] text-white font-semibold">
+          <h1
+            class="md:text-[56px] md:leading-[56px] text-[32px] leading-[32px] text-center tracking-[-1px] text-white font-semibold">
             Roadmap Belajar Frontend & Backend Web Developer di Tahun 2026
           </h1>
-          <p class="text-[20px] text-center w-[811px] leading-[24px] tracking-[-1.7] text-[#858585] font-medium">
+          <p
+            class="text-[20px] text-center md:w-[811px] w-[287px] leading-[24px] tracking-[-1px] text-text-body font-medium">
             Ini dia Roadmap kuasai <span class="text-white">Frontend + Backend Web Developer</span> di tengah Era Vibe
             Coding, alur yang sudah dibuat
             oleh <span class="text-white">Myatech.id</span> terbaru 2026 serta rincian disetiap tech stack yang harus
@@ -97,7 +101,26 @@
 
         <div class="mt-[64px]">
           <!-- Image -->
-          <img src="src/images/Image Hero Section.jpg" alt="" class="rounded-[18px]">
+          <img src="src/images/Image Hero Section.jpg" alt="" class="rounded- md:rounded-[18px]">
+        </div>
+      </div>
+
+      <!-- Cards 1 -->
+      <div class="flex items-center flex-col lg:flex-row bg-[#171615] gap-[40px] p-[30px] md:p-[60px] rounded-[32px]">
+        <div class="md:w-1/2">
+          <img src="src/images/Mockups Website.jpg" alt="" class="w-full rounded-[12px]">
+        </div>
+        <div class="md:w-1/2 flex flex-col gap-[20px]">
+          <h1
+            class="text-white text-[26px] md:text-[32px] font-semibold leading-[26px] md:leading-[39.6px] tracking-[-1px]">
+            Kurikulum
+            Terstruktur Sesuai Kebutuhan Industri 2026
+          </h1>
+          <p class="text-text-body text-[20px] leading-[26px] tracking-[-1px] md:text-justify">
+            Jangan buang waktu mempelajari teknologi yang sudah usang. Di Myatech.id, alur belajar dirancang secara
+            spesifik mengikuti ekosistem modern web development terkini. Setiap materi disusun langkah demi langkah dari
+            fundamental hingga siap terjun ke proyek riil.
+          </p>
         </div>
       </div>
     </section>

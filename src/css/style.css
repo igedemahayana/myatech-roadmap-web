@@ -4,6 +4,10 @@
 @theme {
   --font-sans: "Inter", sans-serif;
 
-  /* Menambah warna custom sendiri jika butuh */
-  --color-brand-primary: #aa3bff;
+  /* 2. Setup Standar Warna Teks (Semantik) */
+  --color-text-body: #858585; /* Teks Paragraf / Konten utama */
+
+  /* 3. Setup Warna Brand & Aksesori */
+  --color-brand-primary: #aa3bff; /* Warna Identitas Utama (Tombol, Link) */
+  --color-brand-hover: #9328eb; /* Warna State Hover */
 }
