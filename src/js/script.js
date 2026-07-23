@@ -113,7 +113,22 @@ gsap.from("#cards-3", {
   },
 });
 
+// Section Frontend Tech Stack
+// Mengambil class reveal-text, saat discroll teks yang awalnya abu berubah jadi putih
+gsap.utils.toArray(".reveal-text").forEach((text) => {
+  gsap.to(text, {
+    color: "#ffffff",
+    scrollTrigger: {
+      trigger: text,
+      start: "top 80%",
+      end: "top 30%",
+      scrub: true,
+    },
+  });
+});
+
 // Grid Tech Stack
+
 gsap.from("#section-frontend", {
   y: 50,
   opacity: 0,
@@ -136,16 +151,22 @@ gsap.from("#grid-frontend-1", {
   },
 });
 
-// Ikon
-
-gsap.to("#html-css-icon", {
-  y: -10,
-  duration: 2,
-  repeat: -1,
-  yoyo: true,
-  ease: "power1.inOut",
+// Grid Text Reveal
+gsap.utils.toArray(".grid-reveal-text").forEach((text) => {
+  gsap.to(text, {
+    color: "#D3D4D6",
+    scrollTrigger: {
+      trigger: text,
+      start: "top 80%",
+      end: "top 30%",
+      scrub: true,
+    },
+  });
 });
 
+// Ikon
+
+// Menggambil semua id Icon dan membuatkan Animasi
 gsap.utils.toArray("#floating-icon").forEach((icon, index) => {
   gsap.to(icon, {
     y: -10,
