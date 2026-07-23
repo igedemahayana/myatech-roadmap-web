@@ -10,8 +10,6 @@
   /* 3. Setup Warna Brand & Aksesori */
   --color-button-blue-default: #0066ff; /* Warna Identitas Utama (Tombol, Link) */
   --color-button-blue-hover: #007aff; /* Warna State Hover */
-
-  -color-background-gray: #171615;
 }
 
 html {

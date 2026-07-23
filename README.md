@@ -43,10 +43,14 @@ Jika menggunakan Visual Studio Code:
 
 Setelah extension terinstall:
 
-Klik tombol “Go Live” di pojok kanan bawah Visual Studio Code
+Ketik ini di terminal VsCode:
+
+```bash
+npm run dev
+```
 
 <p align="center">
-  <img src="src/images/Go_Live_Start.png" alt="Hero Section" width="900">
+  <img src="src/images/localhost.png" alt="Hero Section" width="900">
 </p>
 
 ### 5. Website Berhasil Dijalankan
