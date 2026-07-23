@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+/* Mengatur Custom Font 'Inter' secara global di Tailwind v4 */
+@theme {
+  --font-sans: "Inter", sans-serif;
+
+  /* Menambah warna custom sendiri jika butuh */
+  --color-brand-primary: #aa3bff;
+}

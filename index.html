@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="src/css/style.css" rel="stylesheet">
+
+  <!-- 1. CDN Google Fonts (Inter) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="bg-[#000000] mx-auto max-w-[1200px] px-[120px]">
+  <header class="w-full py-4">
+    <nav class="flex items-center justify-between px-4 text-white">
+
+      <!-- Sisi Kiri: Logo & Menu Navigasi -->
+      <div class="flex items-center gap-8">
+        <!-- Logo -->
+        <a href="index.html" class="flex gap-[8px] text-[22px] font-semibold tracking-tight">
+          <span>
+            <img src="src/icon/logo.svg" alt="">
+          </span>
+          <span>Myatech.id</span>
+        </a>
+
+        <!-- Menu Navigasi -->
+        <ul class="flex items-center gap-6">
+          <li>
+            <a href="index.html" class="text-base font-medium transition-colors">
+              Home
+            </a>
+          </li>
+
+          <!-- Dropdown Menu -->
+          <li class="relative">
+            <button class="flex items-center gap-1 text-base font-medium transition-colors">
+              Roadmap
+              <!-- Icon Panah Dropdown -->
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+              </svg>
+            </button>
+          </li>
+
+          <li>
+            <a href="#contact" class="text-base font-medium transition-colors">
+              Contact
+            </a>
+          </li>
+
+          <li>
+            <a href="#social" class="text-base font-medium transition-colors">
+              Social Media
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Sisi Kanan: Button Github -->
+      <div>
+        <a href="https://github.com/igedemahayana" target="_blank" rel="noopener noreferrer"
+          class="flex items-center gap-[8px] bg-[#1B1F22] text-white font-medium px-6 py-2.5 rounded-lg transition-all">
+          <img src="src/icon/github.svg" alt="">
+          <span>My Github</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <div class="my-[120px]">
+        <div class="flex flex-col items-center justify-center gap-[32px]">
+          <h1 class="text-[56px] text-center leading-[56px] tracking-[-1.7] text-white font-semibold">
+            Roadmap Belajar Frontend & Backend Web Developer di Tahun 2026
+          </h1>
+          <p class="text-[20px] text-center w-[811px] leading-[24px] tracking-[-1.7] text-[#858585] font-medium">
+            Ini dia Roadmap kuasai <span class="text-white">Frontend + Backend Web Developer</span> di tengah Era Vibe
+            Coding, alur yang sudah dibuat
+            oleh <span class="text-white">Myatech.id</span> terbaru 2026 serta rincian disetiap tech stack yang harus
+            dikerjakan sebelum pindah ke
+            bahasa, library atau framework lainnya
+          </p>
+          <button
+            class="inline-flex items-center gap-[10px] bg-[#0066FF] text-white font-medium px-6 py-2.5 rounded-[12px] transition-all">
+            <span>Lihat Roadmap</span>
+            <span>
+              <img src="src/icon/Arrow.svg" alt="">
+            </span>
+          </button>
+        </div>
+
+        <div class="mt-[64px]">
+          <!-- Image -->
+          <img src="src/images/Image Hero Section.jpg" alt="" class="rounded-[18px]">
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
