@@ -21,7 +21,7 @@
 
 <body class="bg-[#000000] mx-auto max-w-[1200px] lg:px-[120px] px-[20px] antialiased scroll-smooth">
   <header class="w-full py-4">
-    <nav class="flex items-center justify-between px-4 text-white">
+    <nav id="navbar" class="flex items-center justify-between px-4 text-white">
 
       <!-- Sisi Kiri: Logo & Menu Navigasi -->
       <div class="flex items-center gap-8">
@@ -85,7 +85,7 @@
   <main>
     <!-- Hero Section -->
     <section>
-      <div class="my-[60px] md:my-[120px]">
+      <div class="my-[60px] md:my-[100px]">
         <div class="flex flex-col items-center justify-center gap-[32px]">
           <h1 id="title-hero"
             class="md:text-[56px] md:leading-[56px] text-[32px] leading-[32px] text-center tracking-[-1px] text-white font-semibold">
@@ -99,7 +99,7 @@
             dikerjakan sebelum pindah ke bahasa, library atau framework lainnya
           </p>
           <button id="button-hero"
-            class="inline-flex items-center gap-[10px] bg-[#0066FF] text-white font-medium px-6 py-2.5 rounded-[12px] transition-all">
+            class="inline-flex items-center gap-[10px] bg-button-blue-default hover:bg-button-blue-hover text-white font-medium px-6 py-2.5 rounded-[12px] transition duration-300">
             Lihat Roadmap
             <span>
               <img src="src/icon/Arrow.svg" alt="">
@@ -173,6 +173,125 @@
               oleh Myatech.id terbaru 2026 serta rincian disetiap tech stack yang harus dikerjakan sebelum pindah ke
               bahasa, library atau framework lainnya
             </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="my-[60px] md:my-[120px]">
+        <div id="section-frontend" class="flex items-start flex-col gap-[26px]">
+          <h1
+            class="md:text-[56px] md:leading-[56px] text-[32px] leading-[32px] text-center tracking-[-1px] text-white font-semibold">
+            Frontend Tech Stack
+          </h1>
+          <p class="text-[20px] md:w-[812px] leading-[24px] tracking-[-1px] text-text-body font-medium">
+            Ini dia Roadmap kuasai <span class="text-white">Frontend + Backend Web Developer</span> di tengah Era Vibe
+            Coding, alur yang sudah dibuat oleh <span class="text-white">Myatech.id</span> terbaru 2026 serta rincian
+            disetiap tech stack yang harus
+            dikerjakan sebelum pindah ke bahasa, library atau framework lainnya
+          </p>
+        </div>
+
+        <!-- Grid Tech Stack Frontend -->
+        <div id="grid-frontend-1" class="mt-[48px]">
+          <!-- Grid 1, 2 & 3 -->
+          <div class="flex flex-col md:flex-row gap-[16px] grid-cols-1 md:grid-cols-3">
+            <!-- Grid 1-->
+            <div
+              class="flex flex-col bg-[#171615] gap-[32px] p-[30px] rounded-[32px] hover:scale-105 transition duration-300">
+
+              <div class="flex flex-row justify-between">
+                <img src="src/icon/react.svg" alt="React" width="35" height="35">
+                <a href="javascript-roadmap.html">
+                  <img src="src/icon/Arrow-Grids.svg" alt="">
+                </a>
+              </div>
+
+              <div class="flex flex-col gap-[18px]">
+                <h1 class="text-white">Belajar HTML5 & CSS3</h1>
+                <p class="text-text-body">Lorem ipsum dolor sit amet, consectetur adipiscing elita sed do eiusmod tempor
+                  incididunt ut labore et
+                  dolore magna aliqua incididunt ut labore et dol</p>
+              </div>
+            </div>
+            <!-- Grid 2-->
+            <div
+              class="flex flex-col bg-[#171615] gap-[32px] p-[30px] rounded-[32px] hover:scale-105 transition duration-300">
+
+              <div class="flex flex-row justify-between">
+                <img src="src/icon/Tailwind.svg" alt="Tailwind" width="35" height="35">
+                <a href="javascript-roadmap.html">
+                  <img src="src/icon/Arrow-Grids.svg" alt="">
+                </a>
+              </div>
+
+              <div class="flex flex-col gap-[18px]">
+                <h1 class="text-white">Belajar Tailwind CSS V4</h1>
+                <p class="text-text-body">Lorem ipsum dolor sit amet, consectetur adipiscing elita sed do eiusmod tempor
+                  incididunt ut labore et
+                  dolore magna aliqua incididunt ut labore et dol</p>
+              </div>
+            </div>
+
+            <!-- Grid 3-->
+            <div
+              class="flex flex-col bg-[#171615] gap-[32px] p-[30px] rounded-[32px] hover:scale-105 transition duration-300">
+
+              <div class="flex flex-row justify-between">
+                <img src="src/icon/JavaScript.svg" alt="JavaScript" width="35" height="35">
+                <a href="javascript-roadmap.html">
+                  <img src="src/icon/Arrow-Grids.svg" alt="">
+                </a>
+              </div>
+
+              <div class="flex flex-col gap-[18px]">
+                <h1 class="text-white">Belajar JavaScript ES6+</h1>
+                <p class="text-text-body">Lorem ipsum dolor sit amet, consectetur adipiscing elita sed do eiusmod tempor
+                  incididunt ut labore et
+                  dolore magna aliqua incididunt ut labore et dol</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Grid 4 & 5 -->
+          <div class="flex flex-col md:flex-row gap-[16px] mt-[16px] grid-cols-1 md:grid-cols-2">
+            <!-- Grid 1-->
+            <div
+              class="flex flex-col bg-[#171615] gap-[32px] p-[30px] rounded-[32px] hover:scale-105 transition duration-300">
+
+              <div class="flex flex-row justify-between">
+                <img src="src/icon/react.svg" alt="React" width="35" height="35">
+                <a href="javascript-roadmap.html">
+                  <img src="src/icon/Arrow-Grids.svg" alt="">
+                </a>
+              </div>
+
+              <div class="flex flex-col gap-[18px]">
+                <h1 class="text-white">Belajar React JS</h1>
+                <p class="text-text-body">Lorem ipsum dolor sit amet, consectetur adipiscing elita sed do eiusmod tempor
+                  incididunt ut labore et
+                  dolore magna aliqua incididunt ut labore et dol</p>
+              </div>
+            </div>
+            <!-- Grid 2-->
+            <div
+              class="flex flex-col bg-[#171615] gap-[32px] p-[30px] rounded-[32px] hover:scale-105 transition duration-300">
+
+              <div class="flex flex-row justify-between">
+                <img src="src/icon/GSAP.svg" alt="GSAP" width="35" height="35">
+                <a href="javascript-roadmap.html">
+                  <img src="src/icon/Arrow-Grids.svg" alt="">
+                </a>
+              </div>
+
+              <div class="flex flex-col gap-[18px]">
+                <h1 class="text-white">Belajar GSAP (Animasi)</h1>
+                <p class="text-text-body">Lorem ipsum dolor sit amet, consectetur adipiscing elita sed do eiusmod tempor
+                  incididunt ut labore et
+                  dolore magna aliqua incididunt ut labore et dol</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

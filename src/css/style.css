@@ -8,8 +8,10 @@
   --color-text-body: #858585; /* Teks Paragraf / Konten utama */
 
   /* 3. Setup Warna Brand & Aksesori */
-  --color-brand-primary: #aa3bff; /* Warna Identitas Utama (Tombol, Link) */
-  --color-brand-hover: #9328eb; /* Warna State Hover */
+  --color-button-blue-default: #0066ff; /* Warna Identitas Utama (Tombol, Link) */
+  --color-button-blue-hover: #007aff; /* Warna State Hover */
+
+  -color-background-gray: #171615;
 }
 
 html {
