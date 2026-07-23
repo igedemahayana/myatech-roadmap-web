@@ -11,3 +11,7 @@
   --color-brand-primary: #aa3bff; /* Warna Identitas Utama (Tombol, Link) */
   --color-brand-hover: #9328eb; /* Warna State Hover */
 }
+
+html {
+  scroll-behavior: smooth;
+}
