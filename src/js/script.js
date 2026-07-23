@@ -135,3 +135,23 @@ gsap.from("#grid-frontend-1", {
     start: "top 80%",
   },
 });
+
+// Ikon
+
+gsap.to("#html-css-icon", {
+  y: -10,
+  duration: 2,
+  repeat: -1,
+  yoyo: true,
+  ease: "power1.inOut",
+});
+
+gsap.utils.toArray("#floating-icon").forEach((icon, index) => {
+  gsap.to(icon, {
+    y: -10,
+    duration: 2,
+    repeat: -1,
+    yoyo: true,
+    ease: "power1.inOut",
+  });
+});
