@@ -38,7 +38,7 @@
 
           <!-- Dropdown Menu -->
           <li class="relative">
-            <button class="flex items-center gap-1 text-base font-medium transition-colors hidden lg:block">
+            <button class="flex items-center gap-1 text-base font-medium transition-colors hidden md:block">
               Roadmap
             </button>
           </li>
@@ -75,6 +75,7 @@
   </header>
 
   <main>
+    <!-- Hero Section -->
     <section>
       <div class="my-[120px]">
         <div class="flex flex-col items-center justify-center gap-[32px]">
@@ -85,42 +86,83 @@
           <p
             class="text-[20px] text-center md:w-[811px] w-[287px] leading-[24px] tracking-[-1px] text-text-body font-medium">
             Ini dia Roadmap kuasai <span class="text-white">Frontend + Backend Web Developer</span> di tengah Era Vibe
-            Coding, alur yang sudah dibuat
-            oleh <span class="text-white">Myatech.id</span> terbaru 2026 serta rincian disetiap tech stack yang harus
-            dikerjakan sebelum pindah ke
-            bahasa, library atau framework lainnya
+            Coding, alur yang sudah dibuat oleh <span class="text-white">Myatech.id</span> terbaru 2026 serta rincian
+            disetiap tech stack yang harus
+            dikerjakan sebelum pindah ke bahasa, library atau framework lainnya
           </p>
           <button
             class="inline-flex items-center gap-[10px] bg-[#0066FF] text-white font-medium px-6 py-2.5 rounded-[12px] transition-all">
-            <span>Lihat Roadmap</span>
+            Lihat Roadmap
             <span>
               <img src="src/icon/Arrow.svg" alt="">
             </span>
           </button>
         </div>
-
+        <!-- Image -->
         <div class="mt-[64px]">
-          <!-- Image -->
           <img src="src/images/Image Hero Section.jpg" alt="" class="rounded- md:rounded-[18px]">
         </div>
       </div>
+    </section>
 
-      <!-- Cards 1 -->
-      <div class="flex items-center flex-col lg:flex-row bg-[#171615] gap-[40px] p-[30px] md:p-[60px] rounded-[32px]">
-        <div class="md:w-1/2">
-          <img src="src/images/Mockups Website.jpg" alt="" class="w-full rounded-[12px]">
+    <!-- 3 Cards -->
+    <section>
+      <div class="flex flex-col gap-[32px]">
+        <!-- Cards 1 -->
+        <div class="flex items-center flex-col lg:flex-row bg-[#171615] gap-[40px] p-[30px] md:p-[60px] rounded-[32px]">
+          <div class="md:w-1/2 order-1">
+            <img src="src/images/Mockups Website.jpg" alt="" class="w-full rounded-[12px]">
+          </div>
+          <div class="md:w-1/2 flex flex-col gap-[20px] order-2">
+            <h1
+              class="text-white text-[26px] md:text-[32px] font-semibold leading-[26px] md:leading-[39.6px] tracking-[-1px]">
+              Kurikulum
+              Terstruktur Sesuai Kebutuhan Industri 2026
+            </h1>
+            <p class="text-text-body text-[20px] leading-[26px] tracking-[-1px] md:text-justify">
+              Jangan buang waktu mempelajari teknologi yang sudah usang. Di Myatech.id, alur belajar dirancang secara
+              spesifik mengikuti ekosistem modern web development terkini. Setiap materi disusun langkah demi langkah
+              dari
+              fundamental hingga siap terjun ke proyek riil.
+            </p>
+          </div>
         </div>
-        <div class="md:w-1/2 flex flex-col gap-[20px]">
-          <h1
-            class="text-white text-[26px] md:text-[32px] font-semibold leading-[26px] md:leading-[39.6px] tracking-[-1px]">
-            Kurikulum
-            Terstruktur Sesuai Kebutuhan Industri 2026
-          </h1>
-          <p class="text-text-body text-[20px] leading-[26px] tracking-[-1px] md:text-justify">
-            Jangan buang waktu mempelajari teknologi yang sudah usang. Di Myatech.id, alur belajar dirancang secara
-            spesifik mengikuti ekosistem modern web development terkini. Setiap materi disusun langkah demi langkah dari
-            fundamental hingga siap terjun ke proyek riil.
-          </p>
+
+        <!-- Cards 2 -->
+        <div class="flex items-center flex-col lg:flex-row bg-[#171615] gap-[40px] p-[30px] md:p-[60px] rounded-[32px]">
+          <div class="md:w-1/2 order-1 md:order-2">
+            <img src="src/images/Mockups Website.jpg" alt="" class="w-full rounded-[12px]">
+          </div>
+          <div class="md:w-1/2 flex flex-col gap-[20px] order-2 md:order-1">
+            <h1
+              class="text-white text-[26px] md:text-[32px] font-semibold leading-[26px] md:leading-[39.6px] tracking-[-1px]">
+              Fokus pada Fundamental Sebelum Menggunakan Framework
+            </h1>
+            <p class="text-text-body text-[20px] leading-[26px] tracking-[-1px] md:text-justify">
+              Banyak developer terjebak langsung belajar framework tanpa tahu dasar yang kuat. Di sini, Anda akan
+              dituntun untuk menguasai inti dari JavaScript murni dan ekosistem CSS terlebih dahulu, memastikan Anda
+              tidak ketergantungan dan siap beradaptasi dengan tools apa pun dengan cepat.
+            </p>
+          </div>
+        </div>
+
+        <!-- Cards 3 -->
+        <div class="flex items-center flex-col lg:flex-row bg-[#171615] gap-[40px] p-[30px] md:p-[60px] rounded-[32px]">
+          <div class="md:w-1/2 order-1">
+            <img src="src/images/Mockups Website.jpg" alt="" class="w-full rounded-[12px]">
+          </div>
+          <div class="md:w-1/2 flex flex-col gap-[20px] order-2">
+            <h1
+              class="text-white text-[26px] md:text-[32px] font-semibold leading-[26px] md:leading-[39.6px] tracking-[-1px]">
+              Kurikulum
+              Terstruktur Sesuai Kebutuhan Industri 2026
+            </h1>
+            <p class="text-text-body text-[20px] leading-[26px] tracking-[-1px] md:text-justify">
+              Ini dia Roadmap kuasai Frontend + Backend Web Developer di tengah Era Vibe Coding, alur yang sudah dibuat
+              oleh Myatech.id terbaru 2026 serta rincian disetiap tech stack yang harus dikerjakan sebelum pindah ke
+              bahasa, library atau framework lainnya
+            </p>
+          </div>
         </div>
       </div>
     </section>
